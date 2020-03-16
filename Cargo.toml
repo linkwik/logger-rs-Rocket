@@ -1,0 +1,12 @@
+[package]
+name = "logger-rs-Rocket"
+version = "0.1.0"
+authors = ["link"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+atty = "0.2"
+yansi = "0.5"
+log = { version = "0.4.8", features = ["std"] }
